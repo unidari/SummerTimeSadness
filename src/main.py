@@ -14,21 +14,21 @@ class DigitButton(CalcButton):
     def __init__(self, text, button_clicked, expand=1):
         CalcButton.__init__(self, text, button_clicked, expand)
         self.bgcolor = ft.Colors.BLACK
-        self.color = ft.Colors.YELLOW
+        self.color = ft.Colors.PINK
 
 
 class ActionButton(CalcButton):
     def __init__(self, text, button_clicked):
         CalcButton.__init__(self, text, button_clicked)
         self.bgcolor = ft.Colors.RED
-        self.color = ft.Colors.YELLOW
+        self.color = ft.Colors.PINK
 
 
 class ExtraActionButton(CalcButton):
     def __init__(self, text, button_clicked):
         CalcButton.__init__(self, text, button_clicked)
         self.bgcolor = ft.Colors.PURPLE
-        self.color = ft.Colors.YELLOW
+        self.color = ft.Colors.PINK
 
 
 class CalculatorApp(ft.Container):
